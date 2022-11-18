@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/styles/jobs.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>jobs</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jobs">
+        <div class="jobs-header">
+          <div>
+            <span class="material-symbols-outlined"> folder_open </span>
+            <h3>jobs</h3>
+            <span id="counter"></span>
+          </div>
+          <button id="add">
+            <span class="material-symbols-outlined" > add </span>Add job
+          </button>
+        </div>
+
+        <div id="jobs-content" class="jobs-content"></div>
+      </div>
+
+      <div class="finish-job">
+        <div class="finish-job-header">
+          <div>
+            <span class="material-symbols-outlined"> inventory_2 </span>
+
+            <h3>finish jobs</h3>
+          </div>
+          <button id="clean">
+            <span class="material-symbols-outlined"> delete </span>clean up
+          </button>
+        </div>
+        <div id="finish-job-content" class="finish-job-content"></div>
+      </div>
+    </div>
+
+    <script src="assets/scripts/jobs.js"></script>
+  </body>
+</html>
